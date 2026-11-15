@@ -1,0 +1,33 @@
+const themeToggle = document.getElementById("themeToggle");
+
+// استرجاع الوضع المحفوظ
+const savedTheme = localStorage.getItem("siteTheme");
+
+if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+}
+
+// تحديث اسم الزر
+function updateThemeButton() {
+    if (document.body.classList.contains("dark-mode")) {
+        themeToggle.textContent = "☀️ الوضع النهاري";
+    } else {
+        themeToggle.textContent = "🌙 الوضع الليلي";
+    }
+}
+
+if (themeToggle) {
+    updateThemeButton();
+
+    themeToggle.addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+            localStorage.setItem("siteTheme", "dark");
+        } else {
+            localStorage.setItem("siteTheme", "light");
+        }
+
+        updateThemeButton();
+    });
+}

@@ -1,0 +1,16 @@
+const tips = [
+    "لا ترمي البطاريات مع النفايات المنزلية.",
+    "حاولي إصلاح الأجهزة بدلًا من استبدالها.",
+    "سلّمي الأجهزة القديمة لمراكز إعادة التدوير المختصة.",
+    "انشري الوعي بأهمية حماية البيئة.",
+    "أعيدي استخدام الأجهزة الإلكترونية الصالحة.",
+    "لا تحرقي النفايات الإلكترونية لأنها قد تطلق مواد ضارة."
+];
+
+const tipButton = document.getElementById("tipButton");
+const tipText = document.getElementById("tipText");
+
+tipButton.addEventListener("click", function() {
+    const randomIndex = Math.floor(Math.random() * tips.length);
+    tipText.textContent = tips[randomIndex];
+});

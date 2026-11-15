@@ -1,0 +1,427 @@
+
+/* إعدادات الموقع */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    background: #f1f8f4;
+    color: #263b31;
+    line-height: 1.9;
+}
+
+/* رأس الموقع */
+header {
+    background: linear-gradient(135deg, #145b43, #48a879);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    font-size: 34px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* القائمة */
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 3px 10px #0001;
+}
+
+nav a {
+    color: #176b4c;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* محتوى الموقع */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin: 22px 0;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px #0001;
+}
+
+h2 {
+    color: #21845a;
+}
+
+/* الأزرار */
+button {
+    background: #21845a;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #145b43;
+}
+
+/* الصور */
+img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* نهاية الموقع */
+footer {
+    background: #145b43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+/* تنسيق قسم الاختبار */
+#quiz {
+    background-color: #e8f5e9;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 15px;
+    max-width: 800px;
+    text-align: right;
+}
+
+/* عنوان الاختبار */
+#quiz h2 {
+    color: #1b5e20;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* الأسئلة */
+#quiz p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #263238;
+}
+
+/* خيارات الإجابة */
+#quiz label {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* زر النتيجة */
+#quiz button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* تأثير عند تمرير المؤشر */
+#quiz button:hover {
+    background-color: #1b5e20;
+}
+
+/* مكان ظهور العلامة */
+#result {
+    color: #1b5e20;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+/* تنسيق صور الموقع */
+.section-image {
+    width: 100%;
+    max-width: 550px;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+/* تنسيق فريق العمل */
+#team {
+    background-color: #f1f8e9;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 18px;
+    max-width: 800px;
+    text-align: center;
+}
+
+#team h2 {
+    color: #1b5e20;
+    margin-bottom: 20px;
+}
+
+.team-box {
+    background-color: white;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 12px;
+    border-right: 5px solid #4caf50;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.team-box h3 {
+    color: #2e7d32;
+}
+
+.team-box p {
+    color: #455a64;
+    line-height: 1.8;
+}
+/* تحسين عرض الموقع على الشاشات الصغيرة */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    section {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    .section-image {
+        width: 100%;
+        height: 220px;
+    }
+
+    #quiz,
+    #team {
+        padding: 18px;
+        margin: 15px auto;
+    }
+
+    button {
+        max-width: 100%;
+    }
+}
+/* تصميم صفحة أضرار النفايات الإلكترونية */
+
+.impact-page {
+    background-color: #f0f7f1;
+}
+
+.impact-page header {
+    background: linear-gradient(135deg, #174d3a, #4c956c);
+    color: white;
+    padding: 35px 15px;
+    text-align: center;
+    border-radius: 0 0 25px 25px;
+}
+
+.impact-page nav {
+    background-color: #d8eadc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.impact-page nav a {
+    color: #174d3a;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.impact-page main {
+    max-width: 900px;
+    margin: auto;
+    padding: 15px;
+}
+
+.impact-page section {
+    background-color: white;
+    padding: 22px;
+    margin: 20px 0;
+    border-radius: 18px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.impact-page section h2 {
+    color: #28734d;
+}
+
+.impact-page section h3 {
+    color: #b16b35;
+}
+
+.impact-page section p,
+.impact-page section li {
+    line-height: 2;
+    color: #344b3c;
+}
+
+.impact-page .section-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+.impact-page main > a {
+    display: inline-block;
+    background-color: #28734d;
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 12px;
+    margin: 15px 0;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.impact-page main > a:hover {
+    background-color: #174d3a;
+}
+#eco-tip {
+    text-align: center;
+    border: 2px solid #b8d8c0;
+}
+
+#tipButton {
+    background-color: #28734d;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#tipButton:active {
+    background-color: #174d3a;
+    transform: scale(0.96);
+}
+
+#tipText {
+    background-color: #eaf5ec;
+    padding: 15px;
+    border-radius: 12px;
+    line-height: 2;
+    color: #174d3a;
+}
+/* زر الوضع الليلي */
+#themeToggle {
+    background-color: #28734d;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 8px;
+}
+
+/* ألوان الوضع الليلي */
+body.dark-mode {
+    background-color: #17251e !important;
+    color: #eeeeee;
+}
+
+body.dark-mode header {
+    background: #203c30;
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #263d32;
+}
+
+body.dark-mode nav a {
+    color: #d8f3dc;
+}
+
+body.dark-mode section {
+    background-color: #26372e;
+    color: #eeeeee;
+    border-color: #405b49;
+}
+
+body.dark-mode section h2,
+body.dark-mode section h3,
+body.dark-mode section p,
+body.dark-mode section li {
+    color: #eeeeee;
+}
+
+body.dark-mode #eco-tip #tipText {
+    background-color: #354b3c;
+    color: #e5f5e9;
+}
+
+body.dark-mode #themeToggle {
+    background-color: #d8eadc;
+    color: #174d3a;
+}
+
+body.dark-mode main > a {
+    background-color: #3d805b;
+    color: white;
+}
+body,
+body header,
+body nav,
+body section,
+body p,
+body h1,
+body h2,
+body h3,
+body a,
+body button {
+    transition: background-color 0.4s ease,
+                color 0.4s ease,
+                border-color 0.4s ease;
+}

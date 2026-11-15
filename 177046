@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نُعيد التدوير لنحمي المستقبل</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>♻️ نُعيد التدوير لنحمي المستقبل</h1>
+    <p>معًا من أجل بيئة أنظف ومستقبل أفضل 🌱</p>
+</header>
+
+<nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#problem">المشكلة</a>
+    <a href="#solutions">الحلول</a>
+    <a href="#team">فريق العمل</a>
+    <a href="#quiz">اختبر معلوماتك</a>
+ <a href="impact.html">أضرار النفايات الإلكترونية</a>
+  <button id="themeToggle" type="button">
+    🌙 الوضع الليلي
+  </button>
+</nav>
+
+<div class="container">
+
+<section id="home">
+    <h2>🌍 مرحبًا بكم في موقعنا</h2>
+    <p>
+    يهدف مشروعنا إلى نشر الوعي حول النفايات
+    الإلكترونية وأضرارها على البيئة والمجتمع،
+    والتعريف بأهمية إعادة التدوير.
+    </p>
+</section>
+
+<section id="problem">
+    <h2>⚠️ ما النفايات الإلكترونية؟</h2>
+<img
+    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+    alt="أجهزة إلكترونية"
+    class="section-image"
+>
+    <p>
+    هي الأجهزة الإلكترونية التي لم نعد نستخدمها،
+    مثل الهواتف والحواسيب والبطاريات والشواحن.
+    </p>
+    <ul>
+        <li>الهواتف القديمة.</li>
+        <li>أجهزة الحاسوب.</li>
+        <li>البطاريات المستهلكة.</li>
+        <li>الشواحن والأسلاك.</li>
+    </ul>
+</section>
+
+<section id="solutions">
+    <h2>💚 كيف نحمي بيئتنا؟</h2>
+  <img
+src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15"
+alt="إعادة تدوير النفايات"
+class="section-image">
+    <ul>
+        <li>إصلاح الأجهزة بدل التخلص منها.</li>
+        <li>إعادة استخدام الأجهزة الصالحة.</li>
+        <li>تسليم النفايات الإلكترونية لجهات مختصة.</li>
+        <li>نشر الوعي بأهمية إعادة التدوير.</li>
+    </ul>
+<section id="quiz">
+    <h2>🧠 تحدي المعرفة البيئية</h2>
+
+    <p>اختبري معلوماتك حول النفايات الإلكترونية، واكتشفي مدى وعيك البيئي!</p>
+
+    <form id="quizForm">
+
+        <p><strong>السؤال الأول: أي مما يلي يُعد من النفايات الإلكترونية؟</strong></p>
+        <label><input type="radio" name="q1" value="a"> أ- بقايا الطعام</label>
+        <label><input type="radio" name="q1" value="b"> ب- الهواتف والحواسيب القديمة</label>
+        <label><input type="radio" name="q1" value="c"> ج- أوراق الأشجار</label>
+        <label><input type="radio" name="q1" value="d"> د- الملابس القديمة</label>
+
+        <p><strong>السؤال الثاني: لماذا يُعد حرق النفايات الإلكترونية تصرفًا خطيرًا؟</strong></p>
+        <label><input type="radio" name="q2" value="a"> أ- لأنه يزيد حجم الأجهزة</label>
+        <label><input type="radio" name="q2" value="b"> ب- لأنه يستهلك الماء فقط</label>
+        <label><input type="radio" name="q2" value="c"> ج- لأنه يجعل الأجهزة قابلة للإصلاح</label>
+        <label><input type="radio" name="q2" value="d"> د- لأنه قد يطلق مواد ضارة في الهواء</label>
+
+        <p><strong>السؤال الثالث: لديك هاتف قديم وما زال يعمل، ما التصرف الأفضل؟</strong></p>
+        <label><input type="radio" name="q3" value="a"> أ- إعادة استخدامه أو التبرع به</label>
+        <label><input type="radio" name="q3" value="b"> ب- رميه في الشارع</label>
+        <label><input type="radio" name="q3" value="c"> ج- حرقه للتخلص منه</label>
+        <label><input type="radio" name="q3" value="d"> د- وضعه مع بقايا الطعام</label>
+
+        <p><strong>السؤال الرابع: أين يجب تسليم البطاريات القديمة؟</strong></p>
+        <label><input type="radio" name="q4" value="a"> أ- في حاوية الطعام</label>
+        <label><input type="radio" name="q4" value="b"> ب- في الشارع</label>
+        <label><input type="radio" name="q4" value="c"> ج- في نقاط جمع مخصصة للبطاريات</label>
+        <label><input type="radio" name="q4" value="d"> د- في حوض الماء</label>
+
+        <p><strong>السؤال الخامس: ما الفائدة من إعادة تدوير الأجهزة الإلكترونية؟</strong></p>
+        <label><input type="radio" name="q5" value="a"> أ- زيادة النفايات</label>
+        <label><input type="radio" name="q5" value="b"> ب- استعادة مواد مفيدة وتقليل استخراج الموارد</label>
+        <label><input type="radio" name="q5" value="c"> ج- تلويث الهواء</label>
+        <label><input type="radio" name="q5" value="d"> د- استهلاك موارد أكثر</label>
+
+        <p><strong>السؤال السادس: ماذا تفعلين إذا لاحظتِ أن بطارية جهاز منتفخة أو متضررة؟</strong></p>
+        <label><input type="radio" name="q6" value="a"> أ- أفتحها وأحاول إصلاحها</label>
+        <label><input type="radio" name="q6" value="b"> ب- أرميها في النار</label>
+        <label><input type="radio" name="q6" value="c"> ج- أضعها في الماء</label>
+        <label><input type="radio" name="q6" value="d"> د- أبتعد عن التعامل معها وأخبر شخصًا بالغًا لتسليمها لمختص</label>
+
+        <p><strong>السؤال السابع: قبل التبرع بهاتف قديم، ما الخطوة المهمة لحماية خصوصيتك؟</strong></p>
+        <label><input type="radio" name="q7" value="a"> أ- حذف البيانات الشخصية بعد حفظ المهم منها</label>
+        <label><input type="radio" name="q7" value="b"> ب- مشاركة كلمات المرور</label>
+        <label><input type="radio" name="q7" value="c"> ج- ترك الحسابات مفتوحة</label>
+        <label><input type="radio" name="q7" value="d"> د- إعطاء الهاتف دون التأكد من بياناته</label>
+
+        <p><strong>السؤال الثامن: ما النتيجة المحتملة لرمي النفايات الإلكترونية عشوائيًا؟</strong></p>
+        <label><input type="radio" name="q8" value="a"> أ- تحسين جودة التربة</label>
+        <label><input type="radio" name="q8" value="b"> ب- زيادة نظافة المياه</label>
+        <label><input type="radio" name="q8" value="c"> ج- تلوث التربة والمياه بمواد ضارة</label>
+        <label><input type="radio" name="q8" value="d"> د- اختفاء النفايات تلقائيًا</label>
+
+        <br><br>
+        <button type="submit">اعرضي نتيجتي</button>
+
+    </form>
+
+    <h3 id="result"></h3>
+  <button type="button" id="resetQuiz">
+    🔄 إعادة الاختبار
+  </button>
+</section>
+<section id="team">
+    <h1>👩‍💻 فريق العمل</h1>
+
+    <p>
+        تم تنفيذ هذا المشروع بهدف نشر الوعي حول
+        النفايات الإلكترونية وأهمية إعادة التدوير
+        لحماية البيئة والمحافظة على مستقبل أفضل.
+    </p>
+
+    <div class="team-box">
+        <h3>إعداد الطالبة</h3>
+        <p>تصميم الموقع وجمع المعلومات وكتابة المحتوى والبرمجة.</p>
+    </div>
+
+    <p>معًا نحمي بيئتنا ونصنع المستقبل 🌍</p>
+</section>
+</>
+  
+
+</div>
+
+<footer>
+    <p>♻️ معًا نحمي البيئة ونصنع المستقبل</p>
+    <p>مشروع ريادي رقمي مدرسي</p>
+</footer>
+<script src="script.js"></script>
+  <script src="theme.js"></script>
+</body>
+</html>

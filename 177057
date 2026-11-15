@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<body class="impact-page">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أضرار النفايات الإلكترونية</title>
+    <link rel="stylesheet" href="style.css">
+</>
+<body>
+
+    <header>
+        <h1>أضرار النفايات الإلكترونية</h1>
+        <p>لنتعرف على تأثيرها في الإنسان والبيئة</p>
+    </header>
+
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="#environment">أضرارها</a>
+        <a href="#solutions">الحلول</a>
+      <button id="themeToggle" type="button">
+    🌙 الوضع الليلي
+      </button>
+    </nav>
+
+    <main>
+        <section id="environment">
+            <h2>كيف تؤثر النفايات الإلكترونية؟</h2>
+          <img
+src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=900"
+alt="أجهزة إلكترونية قديمة"
+class="section-image">
+            <p>
+                تحتوي بعض الأجهزة الإلكترونية على مواد قد تكون ضارة،
+                لذلك فإن التخلص منها بطريقة غير صحيحة قد يؤثر في البيئة.
+            </p>
+
+            <h3>أبرز الأضرار:</h3>
+            <ul>
+                <li>تلوث التربة بسبب المواد الضارة.</li>
+                <li>تلوث المياه عند التخلص العشوائي منها.</li>
+                <li>تلوث الهواء عند حرق النفايات الإلكترونية.</li>
+                <li>إهدار المعادن والمواد التي يمكن إعادة استخدامها.</li>
+            </ul>
+        </section>
+
+        <section id="solutions">
+            <h2>كيف نحد من هذه الأضرار؟</h2>
+           <ul>
+                <li>إصلاح الأجهزة بدلًا من رميها.</li>
+                <li>إعادة استخدام الأجهزة الصالحة.</li>
+                <li>تسليم الأجهزة والبطاريات لجهات جمع مختصة.</li>
+                <li>نشر الوعي بأهمية إعادة التدوير.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>رسالتنا</h2>
+            <p>
+                حماية البيئة مسؤولية الجميع، وخطواتنا الصغيرة
+                اليوم تصنع مستقبلًا أفضل غدًا.
+            </p>
+        </section>
+
+       
+    <a href="index.html">العودة إلى الصفحة الرئيسية</a>
+  <section id="eco-tip">
+    <h2>🌍 نصيحة بيئية</h2>
+
+    <p id="tipText">اضغطي على الزر لاكتشاف نصيحة مفيدة!</p>
+
+    <button id="tipButton" type="button">
+        اكتشف نصيحة بيئية
+    </button>
+</section>
+    </main>
+<script src="impact.js"></script>
+  <script src="theme.js"></script>
+</body>
+</html>
